@@ -29,6 +29,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MonoCameraBuffer.msg"
   "msg/SensorInfo.msg"
   "msg/SensorList.msg"
+  "msg/DetectedObject.msg"
+  "msg/InferenceResult.msg"
   DEPENDENCIES builtin_interfaces
 )
 ament_export_dependencies(rosidl_default_runtime)
